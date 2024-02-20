@@ -181,6 +181,73 @@ const Landing = () => {
             </div>
           </section>
 
+          {/* THE TESTIMONIAL PAGE */}
+
+          <section className='bg-blue-400 mx-auto flex justify-center w-100 h-[30rem]'>
+             
+             <div className='container flex flex-col w-full items-center gap-10 justify-center'>
+                <p className='text-white text-3xl font-bold'>Testimonial</p>
+                  
+                  {/* THE TWO REVIEWERS OR TESTIMONIEES */}
+                <div className='flex gap-10'>
+
+                    {/* LEFT  */}
+                    <div  className='bg-white px-12 py-5 rounded-xl'>
+
+                        {/* PROFILE */}
+                        <div className='flex gap-4 items-center'>
+                            <img src='/Images/profile.png' alt='Greggart9' />
+                            <div>
+                                <p className='text-blue-400 font-bold text-xl -mb-2'>Greggart9</p>
+                                <p className='text-gray-400'>Funaab</p>
+                                <img src='/Images/star.png' alt='rating' />
+                            </div>
+
+                        </div>
+
+                        {/* TEXT */}
+                        <div>
+                        Lorem ipsum dolor sit amet, consectetur <br/>
+                        adipisicing elit, sed do eiusmod tempor  <br/>
+                         incididunt ut labore et dolore magna aliqua. <br/>
+                          Ut enim ad minim veniam, quis nostrud    <br/>
+                        exercitation ullamco laboris nisi ut aliquip ex <br/>
+                         ea commodo consequat. 
+                        </div>
+                    </div>
+
+
+                    {/* Right  */}
+                    <div className='bg-white px-12 py-5 rounded-xl'>
+
+                        {/* PROFILE */}
+                        <div className='flex gap-4 items-center'>
+                            <img src='/Images/profile.png' alt='Jimmy' />
+                            <div>
+                                <p className='text-blue-400 font-bold text-xl -mb-2'>Jimmy</p>
+                                <p className='text-gray-400'>Abuad</p>
+                                <img src='/Images/star.png' alt='rating' />
+                            </div>
+
+                        </div>
+
+                        {/* TEXT */}
+                        <div>
+                        Lorem ipsum dolor sit amet, consectetur <br/>
+                        adipisicing elit, sed do eiusmod tempor  <br/>
+                         incididunt ut labore et dolore magna aliqua. <br/>
+                          Ut enim ad minim veniam, quis nostrud    <br/>
+                        exercitation ullamco laboris nisi ut aliquip ex <br/>
+                         ea commodo consequat. 
+                        </div>
+                    </div>
+
+                </div>
+
+             </div>
+
+          </section>
+
     
 
 
