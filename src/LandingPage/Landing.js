@@ -43,7 +43,7 @@ const Landing = () => {
 
      {/* This is beginning of the body to the landing page */}
 
-     <section className='w-100 h-[33.4rem]  flex items-center bg-blue-100'>
+     <section className='w-100 h-[33.4rem]  flex items-center'>
         <div className='container mx-auto w-10/12 flex items-center justify-between'>
 
              {/* The content by the left hand side THE TEXT*/}
@@ -72,7 +72,7 @@ const Landing = () => {
 
           {/* THE STATS DIV */}
 
-          <section className='bg-red-300 w-100 flex justify-center'>
+          <section className='w-100 flex justify-center'>
 
             <div className='flex justify-evenly w-[70rem] py-10'>
 
@@ -140,7 +140,7 @@ const Landing = () => {
 
           {/* THE AFTER ABOUT US */}
 
-          <section className='bg-yellow-200 flex items-center h-[33rem] '>
+          <section className='flex items-center h-[33rem] '>
             <div className='container mx-auto flex w-10/12 items-center justify-between'>
 
                 {/* LEFT CONTENT */}
