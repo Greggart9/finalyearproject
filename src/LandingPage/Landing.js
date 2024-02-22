@@ -248,6 +248,14 @@ const Landing = () => {
 
           </section>
 
+          {/* CONTACT US  */}
+
+          <section>
+            <div>
+                
+            </div>
+          </section>
+
     
 
 
