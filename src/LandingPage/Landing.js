@@ -250,9 +250,50 @@ const Landing = () => {
 
           {/* CONTACT US  */}
 
-          <section>
-            <div>
+          <section className=' mx-auto flex items-center justify-center h-[35rem]'>
+            <div className=' flex gap-20'>
+
+                {/* LEFT CONTENT */}
+                <div className='space-y-5'>
+                    <p className='text-blue-400 font-bold text-2xl'>Send us a message</p>
+                    <div className=''>
+                        {/* NAME */}
+                        <div className='flex gap-5'>
+                            <div >
+                            <label className='block text-gray-500'>Name</label>
+                            <input className='py-1.5 px-3 rounded-md placeholder:text-gray-300 border-2' type='text' id='name' placeholder='Enter Full Name' />
+                            </div>
+
+                            <div>
+                            <label className='block text-gray-500'>Email</label>
+                            <input className='py-1.5 px-3 rounded-md placeholder:text-gray-300 border-2' type='email' id='email' placeholder='example@gmail.com' />
+                            </div>
+
+
+                        </div>
+                    </div>
+                    {/* SUBJECT */}
+                    <div>
+                    <label className='block text-gray-500'>Subject</label>
+                    <input className='py-1.5 px-3 rounded-md w-[26.8rem] border-2' type='text' id='subject'/>
+                    </div>
+
+                    {/* MESSAGE */}
+                    <div>
+                      <label className='block text-gray-500'>Message</label>
+                      <input className='py-1.5 px-3 rounded-md w-[26.8rem] h-32 border-2' type='textarea' id='subject'/>
+                    </div>
+
+                    <button className='bg-blue-400  py-3 px-12 font-bold text-white rounded-3xl '>Send</button>
+
+                </div>
+
+                {/* RIGHT CONTENT */}
                 
+                <div>
+                    <img className='h-[28rem]'  src='/Images/img10.png' alt='message us' />
+                </div>
+
             </div>
           </section>
 
