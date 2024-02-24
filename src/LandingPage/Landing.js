@@ -297,6 +297,34 @@ const Landing = () => {
             </div>
           </section>
 
+          {/* FOOTER */}
+
+          <section className='bg-gray-200 mx-auto'>
+            <div className='container flex justify-between'>
+
+                {/* MOTTO */}
+                <div className=''>
+                    <p className='text-blue-400'>Greggart9</p>
+                    <p>The Ultimate Collaboration Hub for Students and Lecturers
+                    to Expand Knowledge and Sharpen Skills.</p>
+
+                </div>
+
+                {/* CONTACT US */}
+                <div>
+                    <p className='text-blue-400'>Contact Us</p>
+                </div>
+
+                
+                {/* FOLLOW US */}
+                <div>
+                    <p className='text-blue-400'>Follow Us On</p>
+                </div>
+
+            </div>
+          </section>
+
+
     
 
 
