@@ -299,26 +299,38 @@ const Landing = () => {
 
           {/* FOOTER */}
 
-          <section className='bg-gray-200 mx-auto'>
-            <div className='container flex justify-between'>
+          <section className='bg-black mx-auto flex justify-center items-center h-[13rem]'>
+            <div className='container flex justify-between w-[75rem]'>
 
                 {/* MOTTO */}
                 <div className=''>
-                    <p className='text-blue-400'>Greggart9</p>
-                    <p>The Ultimate Collaboration Hub for Students and Lecturers
-                    to Expand Knowledge and Sharpen Skills.</p>
+                    <p className='text-blue-400 mb-1 font-bold text-xl'>Greggart9</p>
+                    <p className='text-white'>The Ultimate Collaboration Hub for <br/> Students and Lecturers
+                    to Expand <br/>Knowledge and Sharpen Skills.</p>
 
                 </div>
 
                 {/* CONTACT US */}
                 <div>
-                    <p className='text-blue-400'>Contact Us</p>
+                    <p className='text-blue-400 mb-1 font-bold text-xl'>Contact Us</p>
+                    <p className='text-blue-400'>Email:</p>
+                    <p className='text-white'>info@greg.com</p>
+
+                    <p className='text-blue-400'>Phone:</p>
+                    <p className='text-white'>09079654499</p>
                 </div>
 
                 
                 {/* FOLLOW US */}
                 <div>
-                    <p className='text-blue-400'>Follow Us On</p>
+                    <p className='text-blue-400 mb-1 font-bold text-xl'>Follow Us On</p>
+                    <div className='flex text-white gap-4'>
+                        <img src='/Images/icon2.png' alt='Instagram' />
+                        <img src='/Images/icon1.png' alt='Facebook' />
+                        <img src='/Images/icon3.png' alt='Google' />
+                        <img src='/Images/icon4.png' alt='X' />
+                        <img src='/Images/icon5.png' alt='YouTube' />
+                    </div>
                 </div>
 
             </div>
