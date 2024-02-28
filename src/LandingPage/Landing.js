@@ -325,11 +325,11 @@ const Landing = () => {
                 <div>
                     <p className='text-blue-400 mb-1 font-bold text-xl'>Follow Us On</p>
                     <div className='flex text-white gap-4'>
-                        <img src='/Images/icon2.png' alt='Instagram' />
-                        <img src='/Images/icon1.png' alt='Facebook' />
-                        <img src='/Images/icon3.png' alt='Google' />
-                        <img src='/Images/icon4.png' alt='X' />
-                        <img src='/Images/icon5.png' alt='YouTube' />
+                        <img className='cursor-pointer' src='/Images/icon2.png' alt='Instagram' />
+                        <img className='cursor-pointer'  src='/Images/icon1.png' alt='Facebook' />
+                        <img className='cursor-pointer'  src='/Images/icon3.png' alt='Google' />
+                        <img className='cursor-pointer'  src='/Images/icon4.png' alt='X' />
+                        <img className='cursor-pointer'  src='/Images/icon5.png' alt='YouTube' />
                     </div>
                 </div>
 
